@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ../partials/header.ejs %>
+  </head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+    <% include ../partials/nav.ejs %>
+    <div class="container-fluid" style="padding: 0px;margin-top: -16px;">
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%">
+        <source src="/images/short-v3.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="container" style="padding-top: 30px;padding-bottom: 30px;">
+      <div class="px-4">
+        <div class="row align-items-start"> 
+            <div class="col">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae dolor consectetur ligula aliquet venenatis. Mauris quam justo, elementum sed egestas vel, congue sed eros. Vivamus eu tempus turpis, ut scelerisque diam. Duis sed mauris et urna scelerisque tempor. Morbi ullamcorper lacus ligula, vitae tristique enim ornare non. Sed elementum nunc lorem, id facilisis nibh scelerisque nec. Etiam sit amet metus ut leo blandit ultrices non sit amet mi. Nunc tincidunt fermentum erat ut condimentum. Ut rhoncus sapien dapibus, semper mi ac, hendrerit velit. Etiam tempus nisi sit amet leo bibendum, vitae lacinia purus rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+                <button type="button" class="watch-button btn btn-primary btn-lg px-4 gap-3"><a target="_blank" href="https://donorbox.org/peru-missions-hbc?default_interval=m">Donate to Peru Missions</a></button>
+            </div>
+            <div class="col">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%">
+                    <source src="/images/missions.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+      </div>
+    </div>
+    <% include ../partials/footer.ejs %>
+  </body>
+</html>
