@@ -129,10 +129,6 @@ h1, h2, h3, h4, h5 {
   font-size: var(--bs-body-font-size);
 }
 
-.download-arrow {
-  /* margin-left: -25px; */
-}
-
 .fa-arrow-down {
   color: #b5822d !important;
 }

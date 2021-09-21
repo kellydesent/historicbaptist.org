@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <% include ../partials/header.ejs %>
+    <%- include('../partials/header.ejs') %>
   </head>
   <body>
-    <script>
-      AOS.init();
-    </script>
-    <% include ../partials/nav.ejs %>
+    <%- include('../partials/nav.ejs') %>
     <div class="container-fluid" style="padding: 0px;margin-top: -16px;">
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%">
         <source src="/images/short-v3.mp4" type="video/mp4">
@@ -48,6 +45,6 @@
           </div>
       </div>
     </div>
-    <% include ../partials/footer.ejs %>
+    <%- include('../partials/footer.ejs') %>
   </body>
 </html>

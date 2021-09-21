@@ -13,6 +13,10 @@ app.get('/', function(request, response) {
   response.render('pages/index');
 });
 
+app.get("/header", (req, res) => {
+  res.render("partials/header");
+});
+
 app.get("/about", (req, res) => {
   res.render("pages/about");
 });
