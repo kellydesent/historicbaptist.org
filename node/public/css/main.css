@@ -1,0 +1,153 @@
+.Museo300 {
+	font-family: "Museo-300";
+}
+
+p {
+	font-family: "Museo-300" !important;
+}
+
+a {
+	font-family: "Museo-300" !important;
+}
+
+button {
+	font-family: "Museo-300" !important;
+}
+
+span {
+	font-family: "Museo-300" !important;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Museo-300";
+}
+
+.fixed-top {
+  background-color: #ffffff;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #4d7894 !important;
+}
+
+.b-blue {
+  color: #4d7894;
+}
+
+.video-header {
+  position: relative;
+  background-color: black;
+  min-height: 30rem;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -1rem;
+}
+
+.video-header video {
+  margin-top: -125px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+  /* width: auto; */
+  /* height: auto; */
+  z-index: 0;
+  /* -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); */
+}
+
+.video-header .container {
+  position: relative;
+  z-index: 2;
+  margin-top: 250px;
+  /* top: 40%; */
+}
+
+.video-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  z-index: 1;
+}
+
+.blue-h2 {
+  color: #4d7894;
+}
+
+.blue-h4 {
+  color: #4d7894;
+}
+
+.subpage-header {
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header video {
+    display: none;
+  }
+}
+
+.google-maps {
+  -webkit-filter: grayscale(100%);
+}
+
+.watch-button {
+  background-color: #7d5a1f !important;
+  border-color: #7d5a1f !important;
+}
+
+.watch-button a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.service-button a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.service-button {
+  background-color: #b5822d !important;
+  border-color: #b5822d !important;
+  color: #ffffff !important;
+}
+
+.song-title {
+  font-family: "Museo-300" !important;
+  font-size: var(--bs-body-font-size);
+}
+
+.fa-arrow-down {
+  color: #b5822d !important;
+}
+
+.documents a {
+  color: #4d7894;
+  text-decoration: none;
+}
+
+.documents a:hover {
+  color: #4d7894;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 989px) {
+  .video-header video {
+    margin-top: -60px !important;
+  }
+  .video-header .container {
+    margin-top: 135px !important;
+  } 
+}
