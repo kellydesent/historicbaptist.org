@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "historicbaptistchurc8c5f4493",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "api07544217",
+  "apiName": "api07544217",
+  "functionArns": [
+    {
+      "lambdaFunction": "historicbaptistchurc8c5f4493"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-historicbaptistchurc-dev-142623-authRole",
+    "unAuthRoleName": "amplify-historicbaptistchurc-dev-142623-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "historicbaptistchurc8c5f4493",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
