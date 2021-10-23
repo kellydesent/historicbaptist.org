@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-historicbaptistchurc-dev-142623-authRole",
+      "UnauthRoleArn": "arn:aws:iam::562061648414:role/amplify-historicbaptistchurc-dev-142623-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::562061648414:role/amplify-historicbaptistchurc-dev-142623-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-historicbaptistchurc-dev-142623-deployment",
+      "UnauthRoleName": "amplify-historicbaptistchurc-dev-142623-unauthRole",
+      "StackName": "amplify-historicbaptistchurc-dev-142623",
+      "StackId": "arn:aws:cloudformation:us-east-2:562061648414:stack/amplify-historicbaptistchurc-dev-142623/94092150-29f7-11ec-8b4b-0666a347a162",
+      "AmplifyAppId": "d1kmws2p3d1d9r"
+    },
+    "categories": {
+      "function": {
+        "historicbaptistchurc8c5f4493": {
+          "deploymentBucketName": "amplify-historicbaptistchurc-dev-142623-deployment",
+          "s3Key": "amplify-builds/historicbaptistchurc8c5f4493-35517642724a764c626e-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1kmws2p3d1d9r",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
